@@ -531,3 +531,14 @@ footer a {
         margin: 0.75rem 0 0;
     }
 }
+.contact-info img {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+    border-radius: 6px;
+}
+
+.contact-info a {
+    color: #087d79;
+    overflow-wrap: anywhere;
+}
