@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Contact Apex Mobile Detailing in Scottsdale, Arizona. Request mobile detailing, ceramic coatings, or maintenance services.">
+    <meta name="keywords"
+          content="mobile detailing, Scottsdale, auto detailing, ceramic coatings, vehicle maintenance, Apex Mobile Detailing">
+    <title>Contact Us | Apex Mobile Detailing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+        <div class="brand">
+            <h1>Apex Mobile Detailing</h1>
+            <p>Premium Detailing at Your Door</p>
+        </div>
+
+        <div class="header-contact">
+            <p>Scottsdale, Arizona</p>
+            <p>Professional Mobile Auto Detailing</p>
+        </div>
+    </div>
+</header>
+
+<nav aria-label="Main navigation">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="ceramic.html">Ceramic Coatings</a></li>
+        <li><a href="maintenance.html">Maintenance Plans</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section class="page-hero contact-hero">
+        <div>
+            <h2>Contact Apex Mobile Detailing</h2>
+            <p>
+                Have questions about our services?
+                Tell us about your vehicle.
+            </p>
+        </div>
+    </section>
+
+    <section class="contact-layout">
+
+        <div>
+            <h2>Request a Service</h2>
+
+            <p>
+                Complete the form below to provide information
+                about your vehicle and the detailing service
+                you are interested in.
+            </p>
+
+            <p>
+                Fields marked with an asterisk (*) are required.
+                This form is a demonstration for our CIS 300
+                project and does not send real requests.
+            </p>
+
+            <form action="#" method="get">
+
+                <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text"
+                           id="fullName"
+                           name="fullName"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel"
+                           id="phone"
+                           name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="vehicle">Vehicle Year, Make, Model *</label>
+                    <input type="text"
+                           id="vehicle"
+                           name="vehicle"
+                           required>
+                </div>
+
+                <div class="form-group form-full">
+                    <label for="service">Desired Service *</label>
+                    <select id="service"
+                            name="service"
+                            required>
+                        <option value="">Select a service</option>
+                        <option value="detailing">Detailing Services</option>
+                        <option value="ceramic">Ceramic Coatings</option>
+                        <option value="maintenance">Maintenance Plans</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-full">
+                    <label for="comments">Comments or Special Requests</label>
+                    <textarea id="comments"
+                              name="comments"
+                              rows="5"
+                              placeholder="Tell us about your vehicle and what you need."></textarea>
+                </div>
+
+                <div class="form-group form-full">
+                    <button type="submit" class="button">
+                        Submit Request
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+        <aside class="contact-info">
+            <h2>Contact Information</h2>
+
+            <h3>Service Area</h3>
+            <p>
+                Scottsdale, Arizona<br>
+                Phoenix and surrounding communities
+            </p>
+
+            <h3>Email</h3>
+            <p>
+                <a href="mailto:info@example.com">
+                    info@example.com
+                </a>
+            </p>
+
+            <p>
+                Example email address for this fictional
+                class project.
+            </p>
+
+            <h3>Additional Resources</h3>
+            <p>
+                Learn more about road safety and vehicle
+                care through the
+                <a href="https://www.nhtsa.gov/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    National Highway Traffic Safety Administration
+                </a>.
+            </p>
+
+            <img src="images/IMG_5856.jpeg"
+                 alt="Detailed black Mercedes G-Class"
+                 width="400"
+                 loading="lazy">
+        </aside>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <h3>Apex Mobile Detailing</h3>
+            <p>Professional mobile vehicle care.</p>
+        </div>
+
+        <div>
+            <h3>Service Area</h3>
+            <p>Scottsdale and surrounding areas</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="services.html">Services</a><br>
+            <a href="gallery.html">Gallery</a><br>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <p class="copyright">
+        Copyright &copy; 2026 Apex Mobile Detailing
+    </p>
+</footer>
+
+</body>
+</html>
